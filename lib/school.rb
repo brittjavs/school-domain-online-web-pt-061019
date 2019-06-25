@@ -17,7 +17,7 @@ end
 
 def sort
   @roster.each do |grade, students|
-      students.sort
+      grade.values.sort
 end
   @roster
 end
