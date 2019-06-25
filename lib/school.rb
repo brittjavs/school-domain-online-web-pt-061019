@@ -19,6 +19,7 @@ end
 def sort
   @roster.each do |grade, students|
       roster[grade] = roster[grade].sort
+      binding.pry
 end
   @roster
 end
