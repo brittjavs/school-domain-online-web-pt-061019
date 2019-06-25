@@ -20,6 +20,7 @@ def sort
     grade.each do |students|
       students.sort
   end
+end
   @roster
 end
 
